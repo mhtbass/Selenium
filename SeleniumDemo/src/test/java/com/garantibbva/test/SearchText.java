@@ -40,7 +40,6 @@ public class SearchText
 
         sendKeys(By.name("q"),"Muhammed BAŞ");
         //submit(By.name("q"));
-        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.cssSelector("li[data-view-type='1']")));
         click(By.cssSelector("li[data-view-type='1']"));
 
     }
@@ -51,10 +50,12 @@ public class SearchText
     }
 
     public WebElement findElement(By by){
+
         return driver.findElement(by);
     }
 
     public void sendKeys(By by,String text){
+
         findElement(by).sendKeys(text);
     }
 
@@ -63,7 +64,10 @@ public class SearchText
     }
 
     public void click(By by) {
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
         findElement(by).click();
+
     }
 
 
