@@ -1,6 +1,7 @@
 package com.garantibbva.test;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -8,18 +9,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.swing.*;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Muhammed BAŞ
+ * Muhammed BAŞ 04/03/2020
  */
 
-public class SearchText
+public class BaseTest
 {
     WebDriver driver;
     WebDriverWait wait;
@@ -32,36 +35,42 @@ public class SearchText
         chromeOptions.addArguments("start-maximized");
         driver = new ChromeDriver(chromeOptions);
         wait=new WebDriverWait(driver,60);
-        driver.navigate().to("https://www.n11.com");
-        // driver.manage().window().maximize();  /* Chrome Düzenleme */
+        driver.navigate().to("https://www.hepsiburada.com");
+
 
     }
 
     @Test
-    public void googleSearch() throws InterruptedException {
+    public void baseTest() {
 
-        click(By.className("btnSignUp"));
-        sendKeys(By.id("firstName"),"Muhammed"); // name
-        sendKeys(By.id("lastName"),"BAŞ"); // lastname
-        sendKeys(By.id("registrationEmail"),"deneme@hotmail.com"); // email
-        sendKeys(By.id("registrationPassword"),"123123123"); // pass
-        sendKeys(By.id("passwordAgain"),"123123123"); // pass again
-        click(By.id("phoneNumber"));
-        sendKeys(By.id("phoneNumber"),"353533535"); // pass again
-        click(By.className("genderArea"));
+        overElement(By.className("links-global"));
 
-        selectDate(By.id("birthDay"),"12");
-        selectDate(By.id("birthMonth"),"12");
-        selectDate(By.id("birthYear"),"1996");
+        // Assert Fail deneme
+        // Assert.assertFalse("Ürün görüntülendi.", findElement(By.className("links-global")).isDisplayed());
 
-        click(By.className("buyerAgreement"));
-        click(By.className("smsAndCampaign"));
+        click(By.id("login"));
+        sendKeys(By.id("email"),"denemee1233@hotmail.com");
+        sendKeys(By.id("password"),"123123123");
+        click(By.className("form-actions"));
+
+        Assert.assertEquals(getText(By.className("user-name")),"deneme deneme"); // check login name
+
+        /*
+        try{
+
+            findElement(By.id("links-global")).isDisplayed();
+
+        }catch (Exception e){
+            Assert.fail("Element Görüntülenmedi");
+
+        }*/
+
 
     }
 
     @After
     public void after(){
-        //driver.quit();
+        driver.quit();
     }
 
     public WebElement findElement(By by){
@@ -73,23 +82,23 @@ public class SearchText
         findElement(by).sendKeys(text);
     }
 
-    public void submit(By by){
-        findElement(by).submit();
-    }
-
     public void click(By by) {
         wait.until(ExpectedConditions.elementToBeClickable(by));
         findElement(by).click();
 
     }
 
-    public void selectDate(By by,String datestring){
+    public void overElement(By by){
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
         wait.until(ExpectedConditions.elementToBeClickable(by));
-        Select date = new Select(findElement(by));
-        date.selectByValue(datestring);
-
+        Actions actions = new Actions(driver);
+        actions.moveToElement(findElement(by)).build().perform();
 
     }
 
+    public String getText(By by){
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
+        return findElement(by).getText();
+    }
 
 }

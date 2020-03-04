@@ -36,7 +36,7 @@
       <recent name="C:\Users\testinium\Desktop\EducationProjects\SeleniumDemo\properties\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchText">
+  <component name="RunManager" selected="JUnit.BaseTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.garantibbva.App" />
       <module name="SeleniumDemo" />
@@ -65,23 +65,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasePage.googleSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.garantibbva.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.garantibbva" />
-      <option name="MAIN_CLASS_NAME" value="com.garantibbva.BasePage" />
-      <option name="METHOD_NAME" value="googleSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumDemo" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +74,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.garantibbva.test" />
-      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.SearchText" />
+      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.BaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchText.googleSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BaseTest.baseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumDemo" />
       <extension name="coverage">
         <pattern>
@@ -105,7 +89,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.garantibbva.test" />
-      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.SearchText" />
+      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.BaseTest" />
+      <option name="METHOD_NAME" value="baseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseTest.googleSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.garantibbva.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.garantibbva.test" />
+      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.BaseTest" />
       <option name="METHOD_NAME" value="googleSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchText" />
-        <item itemvalue="JUnit.SearchText.googleSearch" />
+        <item itemvalue="JUnit.BaseTest" />
+        <item itemvalue="JUnit.BaseTest.baseTest" />
+        <item itemvalue="JUnit.BaseTest.googleSearch" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.BasePage" />
-        <item itemvalue="JUnit.BasePage.googleSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +152,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="94" y="149" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1583224141762" />
+    <state x="92" y="92" width="1096" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583311081146">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="92" y="92" width="1096" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.984@0.0.1280.984" timestamp="1583311081146" />
     <state x="376" y="228" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583236324882">
       <screen x="0" y="0" width="1274" height="838" />
     </state>
@@ -160,26 +164,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="422" y="243" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1583241537498" />
-    <state width="1237" height="320" key="GridCell.Tab.0.bottom" timestamp="1583307424712">
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1583318281286">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1231" height="263" key="GridCell.Tab.0.bottom/0.0.1274.838@0.0.1274.838" timestamp="1583241887345" />
-    <state width="1237" height="320" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583307424712" />
-    <state width="1237" height="320" key="GridCell.Tab.0.center" timestamp="1583307424712">
+    <state width="1231" height="320" key="GridCell.Tab.0.bottom/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583318281286" />
+    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1583318281286">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1231" height="263" key="GridCell.Tab.0.center/0.0.1274.838@0.0.1274.838" timestamp="1583241887345" />
-    <state width="1237" height="320" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583307424712" />
-    <state width="1237" height="320" key="GridCell.Tab.0.left" timestamp="1583307424712">
+    <state width="1231" height="320" key="GridCell.Tab.0.center/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
+    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583318281286" />
+    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1583318281286">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1231" height="263" key="GridCell.Tab.0.left/0.0.1274.838@0.0.1274.838" timestamp="1583241887345" />
-    <state width="1237" height="320" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583307424712" />
-    <state width="1237" height="320" key="GridCell.Tab.0.right" timestamp="1583307424712">
+    <state width="1231" height="320" key="GridCell.Tab.0.left/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
+    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583318281286" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1583318281286">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1231" height="263" key="GridCell.Tab.0.right/0.0.1274.838@0.0.1274.838" timestamp="1583241887345" />
-    <state width="1237" height="320" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583307424712" />
+    <state width="1231" height="320" key="GridCell.Tab.0.right/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583318281286" />
     <state x="143" y="131" key="SettingsEditor" timestamp="1583241538904">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
