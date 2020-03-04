@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17ca9bd0-2901-4fa2-aef1-420b252454e1" name="Default Changelist" comment="" />
+    <list default="true" id="17ca9bd0-2901-4fa2-aef1-420b252454e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +17,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YbvDfbzltKBuqjwhleAF27cAIR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,7 +36,7 @@
       <recent name="C:\Users\testinium\Desktop\EducationProjects\SeleniumDemo\properties\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchText.googleSearch">
+  <component name="RunManager" selected="JUnit.SearchText">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.garantibbva.App" />
       <module name="SeleniumDemo" />
@@ -111,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchText.googleSearch" />
         <item itemvalue="JUnit.SearchText" />
+        <item itemvalue="JUnit.SearchText.googleSearch" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.BasePage" />
         <item itemvalue="JUnit.BasePage.googleSearch" />
@@ -157,26 +160,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="422" y="243" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1583241537498" />
-    <state width="1231" height="263" key="GridCell.Tab.0.bottom" timestamp="1583241887345">
-      <screen x="0" y="0" width="1274" height="838" />
+    <state width="1237" height="320" key="GridCell.Tab.0.bottom" timestamp="1583307424712">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="263" key="GridCell.Tab.0.bottom/0.0.1274.838@0.0.1274.838" timestamp="1583241887345" />
-    <state width="1237" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583241485548" />
-    <state width="1231" height="263" key="GridCell.Tab.0.center" timestamp="1583241887345">
-      <screen x="0" y="0" width="1274" height="838" />
+    <state width="1237" height="320" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583307424712" />
+    <state width="1237" height="320" key="GridCell.Tab.0.center" timestamp="1583307424712">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="263" key="GridCell.Tab.0.center/0.0.1274.838@0.0.1274.838" timestamp="1583241887345" />
-    <state width="1237" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583241485547" />
-    <state width="1231" height="263" key="GridCell.Tab.0.left" timestamp="1583241887345">
-      <screen x="0" y="0" width="1274" height="838" />
+    <state width="1237" height="320" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583307424712" />
+    <state width="1237" height="320" key="GridCell.Tab.0.left" timestamp="1583307424712">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="263" key="GridCell.Tab.0.left/0.0.1274.838@0.0.1274.838" timestamp="1583241887345" />
-    <state width="1237" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583241485547" />
-    <state width="1231" height="263" key="GridCell.Tab.0.right" timestamp="1583241887345">
-      <screen x="0" y="0" width="1274" height="838" />
+    <state width="1237" height="320" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583307424712" />
+    <state width="1237" height="320" key="GridCell.Tab.0.right" timestamp="1583307424712">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="263" key="GridCell.Tab.0.right/0.0.1274.838@0.0.1274.838" timestamp="1583241887345" />
-    <state width="1237" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583241485548" />
+    <state width="1237" height="320" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583307424712" />
     <state x="143" y="131" key="SettingsEditor" timestamp="1583241538904">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
