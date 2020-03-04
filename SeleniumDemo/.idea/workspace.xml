@@ -9,6 +9,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -36,35 +43,7 @@
       <recent name="C:\Users\testinium\Desktop\EducationProjects\SeleniumDemo\properties\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BaseTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.garantibbva.App" />
-      <module name="SeleniumDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.garantibbva.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.garantibbva.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.garantibbva" />
-      <option name="MAIN_CLASS_NAME" value="com.garantibbva.BasePage" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoginPageTest">
     <configuration name="BaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumDemo" />
       <extension name="coverage">
@@ -112,13 +91,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.garantibbva.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.garantibbva.test" />
+      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.LoginPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.garantibbva.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.garantibbva.test" />
+      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.LoginPageTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginPageTest" />
+        <item itemvalue="JUnit.LoginPageTest.loginTest" />
         <item itemvalue="JUnit.BaseTest" />
         <item itemvalue="JUnit.BaseTest.baseTest" />
         <item itemvalue="JUnit.BaseTest.googleSearch" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.BasePage" />
       </list>
     </recent_temporary>
   </component>
@@ -160,30 +170,34 @@
       <screen x="0" y="0" width="1274" height="838" />
     </state>
     <state x="376" y="228" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1274.838@0.0.1274.838" timestamp="1583236324882" />
-    <state x="422" y="243" key="FileChooserDialogImpl" timestamp="1583241537498">
+    <state x="445" y="175" key="#com.intellij.ide.util.MemberChooser" timestamp="1583322617462">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="422" y="243" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1583241537498" />
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1583318281286">
+    <state x="445" y="175" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1583322617462" />
+    <state x="422" y="243" key="FileChooserDialogImpl" timestamp="1583322328744">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="422" y="243" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1583322328744" />
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1583322950823">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="320" key="GridCell.Tab.0.bottom/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583318281286" />
-    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1583318281286">
+    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583322950823" />
+    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1583322950823">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="320" key="GridCell.Tab.0.center/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
-    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583318281286" />
-    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1583318281286">
+    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583322950823" />
+    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1583322950823">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="320" key="GridCell.Tab.0.left/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
-    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583318281286" />
-    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1583318281286">
+    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583322950823" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1583322950823">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="320" key="GridCell.Tab.0.right/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
-    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583318281286" />
+    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583322950823" />
     <state x="143" y="131" key="SettingsEditor" timestamp="1583241538904">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
