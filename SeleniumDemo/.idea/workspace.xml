@@ -39,11 +39,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.garantibbva.constans" />
+      <recent name="com.garantibbva.test" />
+      <recent name="com.garantibbva.page" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\testinium\Desktop\EducationProjects\SeleniumDemo\properties\driver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginPageTest">
+  <component name="RunManager" selected="JUnit.SepetPageTest.test">
     <configuration name="BaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumDemo" />
       <extension name="coverage">
@@ -55,38 +60,6 @@
       <option name="PACKAGE_NAME" value="com.garantibbva.test" />
       <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.BaseTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseTest.baseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.garantibbva.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.garantibbva.test" />
-      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.BaseTest" />
-      <option name="METHOD_NAME" value="baseTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BaseTest.googleSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.garantibbva.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.garantibbva.test" />
-      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.BaseTest" />
-      <option name="METHOD_NAME" value="googleSearch" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,13 +95,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SepetPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.garantibbva.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.garantibbva.test" />
+      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.SepetPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SepetPageTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.garantibbva.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.garantibbva.test" />
+      <option name="MAIN_CLASS_NAME" value="com.garantibbva.test.SepetPageTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SepetPageTest.test" />
+        <item itemvalue="JUnit.SepetPageTest" />
         <item itemvalue="JUnit.LoginPageTest" />
         <item itemvalue="JUnit.LoginPageTest.loginTest" />
         <item itemvalue="JUnit.BaseTest" />
-        <item itemvalue="JUnit.BaseTest.baseTest" />
-        <item itemvalue="JUnit.BaseTest.googleSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -174,30 +178,34 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="445" y="175" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1583322617462" />
+    <state x="370" y="238" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583327153767">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="370" y="238" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.984@0.0.1280.984" timestamp="1583327153767" />
     <state x="422" y="243" key="FileChooserDialogImpl" timestamp="1583322328744">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="422" y="243" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1583322328744" />
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom" timestamp="1583322950823">
+    <state width="1237" height="209" key="GridCell.Tab.0.bottom" timestamp="1583327049603">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="320" key="GridCell.Tab.0.bottom/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
-    <state width="1237" height="239" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583322950823" />
-    <state width="1237" height="239" key="GridCell.Tab.0.center" timestamp="1583322950823">
+    <state width="1237" height="209" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1583327049603" />
+    <state width="1237" height="209" key="GridCell.Tab.0.center" timestamp="1583327049602">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="320" key="GridCell.Tab.0.center/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
-    <state width="1237" height="239" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583322950823" />
-    <state width="1237" height="239" key="GridCell.Tab.0.left" timestamp="1583322950823">
+    <state width="1237" height="209" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1583327049602" />
+    <state width="1237" height="209" key="GridCell.Tab.0.left" timestamp="1583327049602">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="320" key="GridCell.Tab.0.left/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
-    <state width="1237" height="239" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583322950823" />
-    <state width="1237" height="239" key="GridCell.Tab.0.right" timestamp="1583322950823">
+    <state width="1237" height="209" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1583327049602" />
+    <state width="1237" height="209" key="GridCell.Tab.0.right" timestamp="1583327049603">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1231" height="320" key="GridCell.Tab.0.right/0.0.1274.838@0.0.1274.838" timestamp="1583310520856" />
-    <state width="1237" height="239" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583322950823" />
+    <state width="1237" height="209" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1583327049603" />
     <state x="143" y="131" key="SettingsEditor" timestamp="1583241538904">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

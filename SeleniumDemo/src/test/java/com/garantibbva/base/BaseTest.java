@@ -17,6 +17,8 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "properties/driver/chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("start-maximized");
+        chromeOptions.addArguments("disable-notifications");
+        chromeOptions.addArguments("disable-popup-blocking");
         setWebDriver(new ChromeDriver(chromeOptions));
         getWebDriver().navigate().to(Constants.WEBLINK);
 

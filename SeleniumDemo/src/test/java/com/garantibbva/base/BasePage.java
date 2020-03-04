@@ -32,13 +32,7 @@ public class BasePage {
 
     }
 
-    public void overElement(By by){
-        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
-        wait.until(ExpectedConditions.elementToBeClickable(by));
-        Actions actions = new Actions(driver);
-        actions.moveToElement(findElement(by)).build().perform();
 
-    }
 
     public String getText(By by){
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
@@ -48,6 +42,5 @@ public class BasePage {
     public void navigateToUrl(String url){
         driver.navigate().to(url);
     }
-
 
 }
